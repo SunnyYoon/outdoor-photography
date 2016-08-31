@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width:1200px){
+	.wrap{width:96%;}
+	.main{width:71%;}
+    .footer-inner{width:100%;text-align:right;}
+	
+}
+
+
+@media screen and (max-width:980px){
+	.wrap{width:71%;margin:100px auto;}
+	.nav{width:310px;margin-left:26%;}
+	.main{width:100%;margin-left:-6%;}
+    .main .top{width:97.1%;margin-left:-6%;min-height:680px;}
+	.main .top .camerapic{width:50%;display:block;margin-right: 118px;margin-top: 114px;}
+	.main .top .camerapic img{width:100%;}
+    .main .top h2{font-size:14px;}
+    .main .top h2 span{font-size:36px;}
+	.main .mid{width:100%;margin-right:0;}
+	.main .mid-left{width:110%;margin-left:-6%;margin-bottom:3%;}
+	.main .mid-right{width:110%;margin-left:-6%;margin-bottom:3%;}
+    .main .bot{width:105%;margin-left:-6%;margin-bottom:3%;}
+    .footer-inner{width:100%;text-align:right;}
+	
+}
+
+@media screen and (max-width:768px){
+	.wrap{width:80%;}
+	.nav{width:310px;margin-left:26%;}
+	.main{width:100%;}
+    .main .top{width:97.1%;margin-left:-6%;min-height:860px;}
+	.main .top-left{width:100%;}	
+    .main .top h2{font-size:14px;}
+    .main .top h2 span{font-size:36px;}
+	.main .top .camerapic{width:50%;display:block;margin-right: 118px;margin-top: 114px;}
+	.main .top .camerapic img{width:100%;}
+	.main .mid{width:100%;margin-right:0;}
+	.main .mid-left{width:110%;margin-left:-6%;margin-bottom:3%;}
+	.main .mid-right{width:110%;margin-left:-6%;margin-bottom:3%;}
+    .main .bot{width:105%;margin-left:-6%;margin-bottom:3%;}
+    .footer-inner{width:100%;text-align:right;}
+
+}
+
+@media screen and (max-width:480px){
+	.wrap{width:80%;}
+	.nav{width:310px;margin-left:6%;}
+	.main{width:78%;}
+    .main .top{width:100%;margin-left:-28%;}	
+	.main .top-left{width:100%;}	
+    .main .top h2{font-size:14px;}
+    .main .top h2 span{font-size:36px;}
+	.main .top .camerapic{width: 79%;
+display: block;
+margin-right: 31px;
+margin-top: 138px;
+}
+	.main .top .camerapic img{width:100%;}
+	.main .mid-left{width: 128%;
+margin-left: -28%;
+margin-bottom: 3%;}
+	.main .mid-right{width: 128%;
+margin-left: -28%;
+margin-bottom: 3%;}
+    .main .bot{width: 117%;
+margin-left: -28%;
+margin-bottom: 3%;}
+	.main .bot li{float:none;width:91%;transition:all 1s;margin-bottom:3%;}
+
+    .footer-inner{width:100%;text-align:right;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

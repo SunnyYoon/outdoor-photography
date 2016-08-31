@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background:url(../images/page-bg.jpg) no-repeat center;background-size:cover;}
+
+.wrap{max-width:1200px;margin:100px auto;mini-width:400px;}
+
+.nav{width:25.9%;height:796px;float:left;margin:0 auto;margin-right:2.5%;}
+.nav1{width:100%;height:19%;background:url(../images/menu-bg-home.png) no-repeat;position:relative;}
+.nav1 a{position:absolute;left:21px;bottom:20px;}
+.nav1 a:hover{color:#19beb6;}
+.nav2{width:48%;height:18%;float:left;margin:10px 10px 10px 0;text-align:center;float:left;background:rgba(167,63,29,0.8);}
+.nav2 a p{color:#fff;position:relative;padding-top:73%;}
+.nav2 a p:hover{color:#19beb6;}
+.nav2 a{transition:all 1s;}
+.nav2 a:hover{color:#19beb6;}
+.nav2 i{font-size:70px;margin-top:22%;position:absolute;left:31.33%;top:0.6%;}
+.nav2 i:hover{text-shadow:0 0 5px #fff;}
+
+.nav3{width:48%;height:18%;float:left;margin:10px 0px 10px 0;text-align:center;float:left;background:rgba(112,173,56,0.8);}
+.nav3 a p{position:relative;padding-top:73%;color:#fff;}
+.nav3 a p:hover{color:#19beb6;}
+.nav3 a{transition:all 1s;}
+.nav3 a:hover{color:#19beb6;}
+.nav3 i{font-size:70px;margin-top:22%;position:absolute;left:26.33%;top:0.6%;}
+.nav3 i:hover{text-shadow:0 0 5px #fff;}
+
+.nav4{width:100%;height:38%;background:url(../images/menu-bg-gallery.png) no-repeat;position:relative;margin-bottom:10px;}
+.nav4 a{position:absolute;left:21px;bottom:20px;}
+.nav4 a:hover{color:#19beb6;}
+.nav5{width:100%;height:19%;overflow:hidden;}
+
+.main{float:right;width:71%;background:#fff;}
+.main-inner{width:92%;padding:65px 36px 45px 36px;/*height:1432px*/}
+.main-font h2{line-height:34px;color:#19beb6;position:relative;font-size:18px;margin-bottom:63px;margin-left:22px}
+.main-font h2:before{content:'';width:4px;height:98%;background:#19beb6;position:absolute;left:-22px;top:0;}
+.main-pic1{float:left;width:32.3%;}
+.main li img{width:100%;}
+.main-pic2{float:left;width:32.3%;margin:0 12px;}
+.main-pic3{float:left;width:32.3%;}
+
+.flyanimation1{animation:flyanimation1 1s;position:relative;}
+.flyanimation2{animation:flyanimation2 1s;position:relative;}
+.flyanimation3{animation:flyanimation3 1s;position:relative;}
+.flyanimation4{animation:flyanimation4 1s;position:relative;}
+.flyanimation5{animation:flyanimation5 1s;position:relative;}
+.flyanimation6{animation:flyanimation6 1s;position:relative;}
+.flyanimation7{animation:flyanimation7 1s;position:relative;}
+.flyanimation8{animation:flyanimation8 1s;position:relative;}
+
+
+@keyframes flyanimation1{
+	 0%{left:-300%;transform:rotate(360deg);}
+	 100%{position:absolute;left:0%;}
+	
+	}
+
+@keyframes flyanimation2{
+	 0%{top:-300%;}
+	 100%{position:absolute;top:0%;}
+	
+	}
+
+@keyframes flyanimation3{
+	 0%{right:-300%;}
+	 100%{position:absolute;right:0%;}
+	
+	}
+
+@keyframes flyanimation4{
+	 0%{bottom:-300%;}
+	 100%{position:absolute;bottom:0%;}
+	
+	}
+
+@keyframes flyanimation5{
+	 0%{left:-300%;top:-300%;}
+	 100%{position:absolute;left:0;top:0;}
+	
+	}
+
+@keyframes flyanimation6{
+	 0%{right:-400%;top:-300%;}
+	 100%{position:absolute;left:0;top:0;}
+	
+	}
+
+@keyframes flyanimation7{
+	 0%{right:-300%;bottom:-300%;}
+	 100%{position:absolute;right:0;bottom:0;}
+	
+	}
+
+@keyframes flyanimation8{
+	 0%{right:-500%;bottom:-300%;}
+	 100%{position:absolute;left:0;bottom:0;}
+	
+	}
+
+.btn{width:71%;padding:4% 38%;}
+.btn h2{width:133px;height:38px;background:#19beb6;line-height:38px;padding:0 27px;font-size:17px;text-align: center;}
+
+.footer-inner{width:1200px;text-align:right;}
+.footer-inner p{color:#fff;line-height:75px;font-size:12px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
